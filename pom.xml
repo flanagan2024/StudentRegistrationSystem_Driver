@@ -19,7 +19,7 @@
         <dependency>
             <groupId>com.github.flanagan2024</groupId>
             <artifactId>StudentRegistrationSystem</artifactId>
-            <version>dc1306e</version>
+            <version>a06f8d2</version>
         </dependency>
     </dependencies>
 
