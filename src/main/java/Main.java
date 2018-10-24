@@ -15,29 +15,23 @@ public class Main
 		List<Student> students = new ArrayList<>();
 		Student matt = new Student("Matt", "Flanagan", new LocalDate(1993, 9, 9));
 		Student breda = new Student("Breda", "Shiels", new LocalDate(1996, 5, 3));
-		Student tyrion = new Student("Tyrion", "Lannister", new LocalDate(1990, 1, 25));
 		Student jon = new Student("Jon", "Snow", new LocalDate(1989, 10, 1));
 		Student ned = new Student("Ned", "Stark", new LocalDate(1976, 7, 23));
 		Student homer = new Student("Homer", "Simpson", new LocalDate(1978, 5, 24));
-		Student maggie = new Student("Maggie", "Simpson", new LocalDate(2017, 4, 20));
 		students.add(matt);
 		students.add(breda);
-		students.add(tyrion);
 		students.add(jon);
 		students.add(ned);
 		students.add(homer);
-		students.add(maggie);
 
 		// create modules
 		ArrayList<Module> modules = new ArrayList<>();
 		Module ct404 = new Module("Graphics & Image Processing", "CT404");
 		ct404.addStudent(matt);
-		ct404.addStudent(tyrion);
 		ct404.addStudent(jon);
 		Module ct417 = new Module("Software Engineering III", "CT417");
 		ct417.addStudent(matt);
 		ct417.addStudent(ned);
-		ct417.addStudent(maggie);
 		Module ct421 = new Module("Artificial Intelligence", "CT421");
 		ct421.addStudent(matt);
 		ct421.addStudent(jon);
@@ -45,14 +39,12 @@ public class Main
 		Module ps405 = new Module("Advanced Research Methods", "PS405");
 		ps405.addStudent(homer);
 		ps405.addStudent(jon);
-		ps405.addStudent(maggie);
 		Module ps412 = new Module("Experimental Psychology", "PS412");
 		ps412.addStudent(breda);
 		ps412.addStudent(homer);
 		Module ps415 = new Module("Perception, Attention & Performance", "PS415");
 		ps415.addStudent(breda);
 		ps415.addStudent(ned);
-		ps415.addStudent(tyrion);
 		modules.add(ct404);
 		modules.add(ct417);
 		modules.add(ct421);
